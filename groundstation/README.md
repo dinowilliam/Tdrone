@@ -1,5 +1,5 @@
 
-Tdrone 使用Openpilot地面站进行飞控配置；
+Tdrone uses the OpenPilot Ground Station for flight controller configuration；
 
 
 

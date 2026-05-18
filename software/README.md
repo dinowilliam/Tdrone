@@ -1,9 +1,8 @@
+The flight controller software uses the open-source OpenPilot firmware, with the CC3D board serving as the flight controller for the Tdrone.
 
-飞控软件部分使用开源飞控Openpilot，使用其中的CC3D作为Tdrone的飞行控制器；
+We are using release version 15.02.02. For convenience, the firmware has already been ported and is provided here.
 
-使用发布版本15.02.02，为了使用方便已经将飞控搬运到此；
-
-源码的使用：
+How to compile from source:
 
 ```
 make all_sdk_install
@@ -11,13 +10,11 @@ make all_sdk_install
 make all
 ``` 
 
-为了更多使用方便，已经将编译好的地面站直接发布在地面站文件中，直接下载进行配置即可；
+For easier use, we have also pre-compiled the Ground Station and uploaded it to the Ground Station folder. You can simply download it and use it directly for configuration.
 
-使用CC3D飞控连接地面站，然后在地面站通过配置进行Tdrone的飞行配置；此处将稳定飞行的配置文件发布到此，可以直接导入配置；
+Connect the CC3D flight controller to the Ground Station, then configure the Tdrone flight settings through the Ground Station. A stable flight configuration file has been uploaded here — you can import it directly.
 
-
-更多资料说明文档后续更新，请持续关注；
-
+More documentation and instructions will be added later. Please stay tuned for updates.
 
 
 
