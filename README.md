@@ -40,8 +40,9 @@ More than 100 years after the Wright brothers completed their first manned fligh
 The Tdrone UAV project began development in October 2015. By April 2016, the first-generation Tdrone had achieved basic flight capability, as shown in the video (link).
 Tdrone uses two modified 1806 brushless motors for propulsion. Two servos are used to control the swashplate, while yaw is controlled via differential motor speed. The flight controller is a CC3D. It is equipped with a two-axis stabilized gimbal and an action camera. The flight time is approximately 10 minutes.
 
-Tdrone Project![RME2](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/RME2.jpg) 
-![TU4](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/TU4.png)
+Tdrone Project
+![RME2](https://github.com/dinowilliam/Tdrone/blob/master/pictures/RME2.jpg) 
+![TU4](https://github.com/dinowilliam/Tdrone/blob/master/pictures/TU4.png)
 
 ### 2.Flight Controller Section:
 Tdrone uses the CC3D flight controller. The CC3D natively supports this type of aircraft, but requires some special settings.
@@ -52,8 +53,8 @@ We will continue to improve and update the flight controller setup tutorial here
 ### 3. Manufacturing methods and materials:
 Tdrone is manufactured by 3D printing technology. All parts are optimized for 3D printing, which can be printed directly. The printing materials are made of ordinary ABS plastics. Aluminum tubes are used in the central core. 98% of the parts are fixed by screw, which is convenient for later maintenance and replacement.
 
-![3D Structural Side View](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构侧面.png)
-![3D Structural Side View](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构正面.png)
+![3D Structural Side View](https://github.com/dinowilliam/Tdrone/blob/master/pictures/3DSideStructureView.png)
+![3D Structural Front View](https://github.com/dinowilliam/Tdrone/blob/master/pictures/3DFrontStructureView.png)
 
 ### 4.DIY points for attention:
 I fully understand your urgency to build your own aircraft as soon as possible. But before everything starts, you need to figure out the following points:
@@ -79,9 +80,9 @@ If you think this project is helpful to you, but also for better service to the 
 
 * [Donate via Paypal](PayPal.Me/accelerationtech)
 
-* Donate via Alipay !  [Donate via Alipay](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/支付宝捐赠.jpg)
+* Donate via Alipay !  [Donate via Alipay](https://github.com/dinowilliam/Tdrone/blob/master/pictures/AlipayDonation.jpg)
 
-* Donate via WeChatpay !  [Donate via WeChatpay](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/微信捐赠.png)
+* Donate via WeChatpay !  [Donate via WeChatpay](https://github.com/dinowilliam/Tdrone/blob/master/pictures/WeChatDonation.png)
 
 
 
