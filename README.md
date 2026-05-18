@@ -40,10 +40,6 @@ More than 100 years after the Wright brothers completed their first manned fligh
 The Tdrone UAV project began development in October 2015. By April 2016, the first-generation Tdrone had achieved basic flight capability, as shown in the video (link).
 Tdrone uses two modified 1806 brushless motors for propulsion. Two servos are used to control the swashplate, while yaw is controlled via differential motor speed. The flight controller is a CC3D. It is equipped with a two-axis stabilized gimbal and an action camera. The flight time is approximately 10 minutes.
 
-### 1. general situation:
-
-The Tdrone UAV was developed in October 2015, and by April 2016 the first generation of Tdrone had initial flight capabilities, as shown in the video. Tdrone uses two modified 1806 brushless motors as power, two steering motors to control the swashplate and differential control for yaw. Flight control uses CC3D flight control. It is equipped with a two-axis stable platform and a motion camera. The duration is about 10 minutes.
-
 Tdrone Project![RME2](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/RME2.jpg) 
 ![TU4](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/TU4.png)
 
@@ -70,7 +66,6 @@ Click the YouTube or Bilibili video links below to watch the actual flight foota
 
 * [YouTube Flight Video](https://www.youtube.com/watch?v=wCfMVMhZFWQ&t=2s)
 * [bilibili Flight Video](https://www.bilibili.com/video/av36347739/?redirectFrom=h5)
-
 
 ### Contact Us
     Email：linkalladmin@163.com
