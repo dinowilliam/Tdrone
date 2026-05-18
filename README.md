@@ -49,44 +49,34 @@ Any aircraft is designed for target use and use environment. There is no absolut
 * [NASA共轴飞行器](https://www.nasa.gov/press-release/mars-helicopter-to-fly-on-nasa-s-next-red-planet-rover-mission)
 
 在莱特兄弟使用固定翼飞行器完成人类第一次载人飞行的100多年后，我们有望见证人类首次在除地球以外的星球上使用无人飞行器，而这个无人飞行器正是共轴双桨无人
-机！
+Aircraft！
 
 More than 100 years after the Wright brothers completed their first manned flight using fixed-wing aircraft, we are hopeful to witness the first use of UAVs on planets other than Earth, which is a coaxial drone!
 
-## Tdrone介绍
+## Tdrone Project
 
-### 1.概况：
-Tdrone无人机是从2015年10月开始研发的，到2016年4月第一代Tdrone具备了初步飞行能力，就如视频中展示的那样（连接）。Tdrone使用了两个经过改装的1806无刷电机作为动力，两个舵机用来控制斜盘，偏航使用差速控制。飞控使用了CC3D飞控。其搭载了两轴稳定的云台和运动相机。续航时间在10分钟左右。
+### 1.Overview:
+The Tdrone UAV project began development in October 2015. By April 2016, the first-generation Tdrone had achieved basic flight capability, as shown in the video (link).
+Tdrone uses two modified 1806 brushless motors for propulsion. Two servos are used to control the swashplate, while yaw is controlled via differential motor speed. The flight controller is a CC3D. It is equipped with a two-axis stabilized gimbal and an action camera. The flight time is approximately 10 minutes.
 
 ### 1. general situation:
 
 The Tdrone UAV was developed in October 2015, and by April 2016 the first generation of Tdrone had initial flight capabilities, as shown in the video. Tdrone uses two modified 1806 brushless motors as power, two steering motors to control the swashplate and differential control for yaw. Flight control uses CC3D flight control. It is equipped with a two-axis stable platform and a motion camera. The duration is about 10 minutes.
 
-Tdrone实物：![RME2](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/RME2.jpg) 
+Tdrone Project![RME2](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/RME2.jpg) 
 ![TU4](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/TU4.png)
 
-### 2.飞控部分：
-   Tdrone使用了CC3D飞控。CC3D飞控原生即支持该种类型的飞行器，但需要一些特殊的设置。这是我使用的配置文件（连接）。 你可以直接使用该配置文件，但遥控器
-的设置需要根据你使用的遥控器的情况进行重新设置。这一步与多旋翼是一致的，参考多旋翼的部分即可。 地面站固件版本为 15.02.02。
-我们会在此不断完善飞控的设置教程，请关注后续的更新。
-
-### 2. flight control part:
-Tdrone uses CC3D flight control. CC3D flight control native supports this type of aircraft, but requires some special settings. This is the configuration file I use. You can use the configuration file directly, but the remote control settings need to be reset according to the situation of the remote control you use. This step is consistent with the multi-rotor system. Refer to the multi-rotor system. At the same time, the ground station firmware version is 15.02.02 .
-We will continue to improve the flight control setup tutorial here, please pay attention to the follow-up updates.
-
-### 3.制造方式及材质：
-   Tdrone整机采用3D打印技术制造，所有零件都进行了3D打印优化，可以直接打印，打印材料使用了普通的ABS塑料。中央核心部分使用了铝管。98%的零件都使用了螺丝固定，方便后期维修更换。
+### 2.Flight Controller Section:
+Tdrone uses the CC3D flight controller. The CC3D natively supports this type of aircraft, but requires some special settings.
+This is the configuration file I used (link). You can use this configuration file directly. However, the radio transmitter settings need to be reconfigured according to the specific transmitter you are using. This step is the same as with multi-rotors — simply refer to the multi-rotor section for guidance.
+The Ground Station firmware version is 15.02.02.
+We will continue to improve and update the flight controller setup tutorial here. Please stay tuned for future updates.
    
 ### 3. Manufacturing methods and materials:
 Tdrone is manufactured by 3D printing technology. All parts are optimized for 3D printing, which can be printed directly. The printing materials are made of ordinary ABS plastics. Aluminum tubes are used in the central core. 98% of the parts are fixed by screw, which is convenient for later maintenance and replacement.
 
-![3D结构侧面](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构侧面.png)
-![3D结构正面](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构正面.png)
-### 4.DIY注意事项：
-我十分理解大家想尽快制造出属于自己的飞行器的急迫心情。但在一切开始之前，你需要弄清楚以下几点：
-* 1.所有的零件尺寸都是按照我的3D打印机公差精度优化的，可能它并不适合你所使用的3D打印机。你需要根据你自己的打印机适当的调整零件。你可以先打印出一些需要配合的零件来测试。
-* 2.所使用的电机与舵机尽量使用与我们建议或相近似的型号，不要偏差过多。
-* 3.该飞行器的制造需要一定的动手能力，虽然打印机完成了大部分的工作，但仍需要你手工处理一些金属零件布线及调整电机等。
+![3D Structural Side View](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构侧面.png)
+![3D Structural Side View](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/3D结构正面.png)
 
 ### 4.DIY points for attention:
 I fully understand your urgency to build your own aircraft as soon as possible. But before everything starts, you need to figure out the following points:
@@ -94,30 +84,28 @@ I fully understand your urgency to build your own aircraft as soon as possible. 
 * 2. Use the motor and steering gear as much as possible, and do not deviate too much from the model we recommend or approximate.
 * 3. The manufacture of the aircraft needs a certain practical ability. Although the printer has completed most of the work, you still need to manually process some metal parts wiring and adjust the motor.
 
-### 更多了解
-点击YouTube，bilibili视频链接来观看Tdrone的实际飞行视频.
+### More Information
+Click the YouTube or Bilibili video links below to watch the actual flight footage of the Tdrone.
 
-* [YouTube飞行视频](https://www.youtube.com/watch?v=wCfMVMhZFWQ&t=2s)
-* [bilibili飞行视频](https://www.bilibili.com/video/av36347739/?redirectFrom=h5)
+* [YouTube Flight Video](https://www.youtube.com/watch?v=wCfMVMhZFWQ&t=2s)
+* [bilibili Flight Video](https://www.bilibili.com/video/av36347739/?redirectFrom=h5)
 
 
-### 联系我们
-    邮箱：linkalladmin@163.com
+### Contact Us
+    Email：linkalladmin@163.com
     
-有什么问题建议欢迎到以下论坛,在我们的帖子下进行讨论：
-* [国内讨论区](http://bbs.5imx.com/forum.php?mod=viewthread&tid=1445702&extra=page%3D1)
+If you have any questions or suggestions, please feel free to join the discussion in the forum below under our post:：
+* [Domestic Discussion Forum](http://bbs.5imx.com/forum.php?mod=viewthread&tid=1445702&extra=page%3D1)
 
-### 捐赠 Donate
-
-如果您觉得该项目对您有帮助，也为了更好的更好的服务社区和不断更新新的设计，请捐赠我们！
+### Donate
 
 If you think this project is helpful to you, but also for better service to the community and constantly update the new design, please donate to us!
 
-* [通过Paypal](PayPal.Me/accelerationtech)
+* [Donate via Paypal](PayPal.Me/accelerationtech)
 
-* 通过 Alipay    ![支付宝捐赠](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/支付宝捐赠.jpg)
+* Donate via Alipay![Donate via Alipay](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/支付宝捐赠.jpg)
 
-* 通过 WeChatpay ![微信捐赠](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/微信捐赠.png)
+* Donate via WeChatpay ![Donate via WeChatpay](https://github.com/ShenZhenAccelerationTechCo/Tdrone/blob/master/pictures/微信捐赠.png)
 
 
 
